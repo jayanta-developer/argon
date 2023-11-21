@@ -106,15 +106,37 @@ a:hover {
     color: #043d2d !important;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-info,
+.btn-default {
     color: #FFFFFF !important;
     background-color: #176a52 !important;
     border-color: #176a52 !important;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-info:hover,
+.btn-default:hover {
     color: #FFFFFF !important;
     background-color: #043d2d !important;
     border-color: #043d2d !important;
+}
+
+.page-item.active .page-link {
+    color: #FFFFFF !important;
+    background-color: #176a52 !important;
+    border-color: #176a52 !important;
+}
+
+.bg-default {
+    background-color: #176a52 !important;
+}
+
+.separator-skew {
+    height: 0 !important;
+}
+
+footer {
+    background-color: #FFFFFF;
 }

@@ -37,6 +37,7 @@
     // Vetical align table content
 
     &.align-items-center {
+
         td,
         th {
             vertical-align: middle;
@@ -44,12 +45,12 @@
     }
 
 
-   // Styles for dark table
+    // Styles for dark table
 
-   .thead-dark {
+    .thead-dark {
         th {
-            background-color: $table-dark-head-bg;
-            color: $table-dark-head-color;
+            background-color: #064e39 !important;
+            color: #FFFFFF !important;
         }
     }
 
@@ -77,6 +78,7 @@
 // Flush tables
 
 .table-flush {
+
     td,
     th {
         border-left: 0;
@@ -86,6 +88,7 @@
     tbody {
         tr {
             &:first-child {
+
                 td,
                 th {
                     border-top: 0;
@@ -93,6 +96,7 @@
             }
 
             &:last-child {
+
                 td,
                 th {
                     border-bottom: 0;
@@ -115,4 +119,13 @@
             padding-right: $card-spacer-x;
         }
     }
+}
+
+.table-dark {
+    color: #FFFFFF !important;
+    background-color: #176a52 !important;
+}
+
+.table-dark th, .table-dark td, .table-dark thead th {
+    border-color: #477f6f !important;
 }
