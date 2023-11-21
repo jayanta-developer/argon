@@ -67,15 +67,15 @@ const Index = (props) => {
       {/* Page content */}
       <Container className="mt--7" fluid>
         <Row>
-          <Col className="mb-5 mb-xl-0" xl="8">
-            <Card className="bg-gradient-default shadow">
+          <Col className="mb-5 mb-xl-0" xl="12">
+            <Card className="shadow">
               <CardHeader className="bg-transparent">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h6 className="text-uppercase text-light ls-1 mb-1">
+                    <h6 className="text-uppercase ls-1 mb-1">
                       Overview
                     </h6>
-                    <h2 className="text-white mb-0">Sales value</h2>
+                    <h2 className="mb-0">Sales value</h2>
                   </div>
                   <div className="col">
                     <Nav className="justify-content-end" pills>
@@ -119,38 +119,15 @@ const Index = (props) => {
                 </div>
               </CardBody>
             </Card>
-          </Col>
-          <Col xl="4">
-            <Card className="shadow">
-              <CardHeader className="bg-transparent">
-                <Row className="align-items-center">
-                  <div className="col">
-                    <h6 className="text-uppercase text-muted ls-1 mb-1">
-                      Performance
-                    </h6>
-                    <h2 className="mb-0">Total orders</h2>
-                  </div>
-                </Row>
-              </CardHeader>
-              <CardBody>
-                {/* Chart */}
-                <div className="chart">
-                  <Bar
-                    data={chartExample2.data}
-                    options={chartExample2.options}
-                  />
-                </div>
-              </CardBody>
-            </Card>
-          </Col>
+          </Col>          
         </Row>
         <Row className="mt-5">
-          <Col className="mb-5 mb-xl-0" xl="8">
+          <Col className="mb-5 mb-xl-0" xl="5">
             <Card className="shadow">
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Page visits</h3>
+                    <h3 className="mb-0">Recent Transactions</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -167,66 +144,59 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Page name</th>
-                    <th scope="col">Visitors</th>
-                    <th scope="col">Unique users</th>
+                    <th scope="col">User Name</th>
+                    <th scope="col">Cost</th>
                     <th scope="col">Bounce rate</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">/argon/</th>
+                    <th scope="row">Rajendra Sheth</th>
                     <td>4,569</td>
-                    <td>340</td>
                     <td>
                       <i className="fas fa-arrow-up text-success mr-3" /> 46,53%
-                    </td>
+                    </td>                    
                   </tr>
                   <tr>
-                    <th scope="row">/argon/index.html</th>
+                    <th scope="row">Ambika Khan</th>
                     <td>3,985</td>
-                    <td>319</td>
                     <td>
                       <i className="fas fa-arrow-down text-warning mr-3" />{" "}
                       46,53%
-                    </td>
+                    </td>                    
                   </tr>
                   <tr>
-                    <th scope="row">/argon/charts.html</th>
-                    <td>3,513</td>
-                    <td>294</td>
-                    <td>
-                      <i className="fas fa-arrow-down text-warning mr-3" />{" "}
-                      36,49%
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">/argon/tables.html</th>
-                    <td>2,050</td>
-                    <td>147</td>
+                    <th scope="row">Bimla Bhavsar</th>
+                    <td>3,513</td>  
                     <td>
                       <i className="fas fa-arrow-up text-success mr-3" /> 50,87%
-                    </td>
+                    </td>                  
                   </tr>
                   <tr>
-                    <th scope="row">/argon/profile.html</th>
-                    <td>1,795</td>
-                    <td>190</td>
+                    <th scope="row">Himesh Sachdev</th>
+                    <td>2,050</td> 
                     <td>
                       <i className="fas fa-arrow-down text-danger mr-3" />{" "}
                       46,53%
-                    </td>
+                    </td>                   
+                  </tr>
+                  <tr>
+                    <th scope="row">Ghalib Peri</th>
+                    <td>1,795</td>
+                    <td>
+                      <i className="fas fa-arrow-up text-success mr-3" /> 50,87%
+                    </td>                    
                   </tr>
                 </tbody>
               </Table>
             </Card>
           </Col>
-          <Col xl="4">
+          <Col className="mb-5 mb-xl-0" xl="7">
             <Card className="shadow">
               <CardHeader className="border-0">
                 <Row className="align-items-center">
                   <div className="col">
-                    <h3 className="mb-0">Social traffic</h3>
+                    <h3 className="mb-0">Latest Car Entry</h3>
                   </div>
                   <div className="col text-right">
                     <Button
@@ -243,88 +213,49 @@ const Index = (props) => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">Referral</th>
-                    <th scope="col">Visitors</th>
-                    <th scope="col" />
+                    <th scope="col">Image</th>
+                    <th scope="col">Car Name</th>
+                    <th scope="col">Date of entry</th>
+                    <th scope="col">user Name</th>
+                    <th scope="col">Link</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">Facebook</th>
-                    <td>1,480</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">60%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="60"
-                            barClassName="bg-gradient-danger"
-                          />
-                        </div>
-                      </div>
-                    </td>
+                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <td>Maruti Suzuki</td>
+                    <td>12/07/2023</td>
+                    <td>Hemendra Rai</td>
+                    <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row">Facebook</th>
-                    <td>5,480</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">70%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="70"
-                            barClassName="bg-gradient-success"
-                          />
-                        </div>
-                      </div>
-                    </td>
+                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <td>Honda City</td>
+                    <td>12/07/2023</td>
+                    <td>Mukund Goyal</td>
+                    <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row">Google</th>
-                    <td>4,807</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">80%</span>
-                        <div>
-                          <Progress max="100" value="80" />
-                        </div>
-                      </div>
-                    </td>
+                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <td>Hyundai</td>
+                    <td>12/07/2023</td>
+                    <td>Abhinav Mody</td>
+                    <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row">Instagram</th>
-                    <td>3,678</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">75%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="75"
-                            barClassName="bg-gradient-info"
-                          />
-                        </div>
-                      </div>
-                    </td>
+                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <td>Vijayent Korpal</td>
+                    <td>12/07/2023</td>
+                    <td>Hemendra Rai</td>
+                    <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row">twitter</th>
-                    <td>2,645</td>
-                    <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">30%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="30"
-                            barClassName="bg-gradient-warning"
-                          />
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
+                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <td>Tata Nexon</td>
+                    <td>12/07/2023</td>
+                    <td>Zahir Pau</td>
+                    <td><a href="#">link</a></td>
+                  </tr>                  
                 </tbody>
               </Table>
             </Card>
