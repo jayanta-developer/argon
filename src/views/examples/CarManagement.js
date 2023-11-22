@@ -318,12 +318,11 @@ const CarManagement = () => {
                   </tr> 
                   <tr>
                     <th scope="row">image</th>
-                    <td>car name</td>
-                    <td>model</td>
-                    <td>make</td>
-                    
-                    <td>user name</td>
-                    <td>number of notecard</td>
+                    <td>Renault</td>
+                    <td>Kwid</td>
+                    <td>2023</td>                    
+                    <td>Lakshmi Mistry</td>
+                    <td>328</td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -361,12 +360,11 @@ const CarManagement = () => {
                   </tr> 
                   <tr>
                     <th scope="row">image</th>
-                    <td>car name</td>
-                    <td>model</td>
-                    <td>make</td>
-                    
-                    <td>user name</td>
-                    <td>number of notecard</td>
+                    <td>Mahindra & Mahindra</td>
+                    <td>XUV500</td>
+                    <td>2021</td>                    
+                    <td>Siddharth Dodiya</td>
+                    <td>418</td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -404,12 +402,11 @@ const CarManagement = () => {
                   </tr> 
                   <tr>
                     <th scope="row">image</th>
-                    <td>car name</td>
-                    <td>model</td>
-                    <td>make</td>
-                    
-                    <td>user name</td>
-                    <td>number of notecard</td>
+                    <td>Maruti Swift</td>
+                    <td>Desire</td>
+                    <td>2018</td>                    
+                    <td>Mohan Borah</td>
+                    <td>228</td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -447,12 +444,11 @@ const CarManagement = () => {
                   </tr> 
                   <tr>
                     <th scope="row">image</th>
-                    <td>car name</td>
-                    <td>model</td>
-                    <td>make</td>
-                    
-                    <td>user name</td>
-                    <td>number of notecard</td>
+                    <td>Renault Kwid</td>
+                    <td>Kwid</td>
+                    <td>2021</td>                    
+                    <td>Kamlesh Naik</td>
+                    <td>436</td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
