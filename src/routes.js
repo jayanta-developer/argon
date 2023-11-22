@@ -24,7 +24,6 @@ import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 import CarManagement from "views/examples/CarManagement.js";
 import UserManagement from "views/examples/UserManagement.js";
-import AddNewUser from "views/examples/AddNewUser.js";
 
 var routes = [
   {
