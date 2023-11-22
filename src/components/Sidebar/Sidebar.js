@@ -228,14 +228,7 @@ const Sidebar = (props) => {
             </InputGroup>
           </Form>
           {/* Navigation */}
-          <Nav navbar>{createLinks(routes)}</Nav>
-          {/* Divider */}
-          <hr className="my-3" />
-          {/* Heading */}
-          
-          {/* Navigation */}
-          
-          
+          <Nav navbar>{createLinks(routes)}</Nav>        
         </Collapse>
       </Container>
     </Navbar>

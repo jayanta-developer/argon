@@ -22,28 +22,32 @@ import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
+import CarManagement from "views/examples/CarManagement.js";
+import UserManagement from "views/examples/UserManagement.js";
+import AddNewUser from "views/examples/AddNewUser.js";
 
 var routes = [
   {
     path: "/index",
     name: "Dashboard",
-    icon: "ni ni-tv-2 text-primary",
+    icon: "fas fa-tv",
     component: <Index />,
     layout: "/admin",
   },
   {
-    path: "/icons",
+    path: "/user-management",
     name: "User Management",
-    icon: "ni ni-planet text-blue",
-    component: <Icons />,
+    icon: "fas fa-users",
+    component: <UserManagement />,
     layout: "/admin",
   },
   {
-    path: "/maps",
+    path: "/car-management",
     name: "Car Management",
-    icon: "ni ni-pin-3 text-orange",
-    component: <Maps />,
+    icon: "fas fa-car",
+    component: <CarManagement />,
     layout: "/admin",
   },  
 ];
 export default routes;
+

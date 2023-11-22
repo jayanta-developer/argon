@@ -146,12 +146,14 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h6 {
     color: #176a52 !important;
+}
+
+.custom-toggle {
+    margin: 0 !important;
+}
+
+.table-flush .dropdown-menu {
+    min-width: 5rem;
 }

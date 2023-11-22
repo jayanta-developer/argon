@@ -132,7 +132,7 @@ const Index = (props) => {
                   <div className="col text-right">
                     <Button
                       color="primary"
-                      href="#pablo"
+                      href="#"
                       onClick={(e) => e.preventDefault()}
                       size="sm"
                     >
@@ -244,7 +244,7 @@ const Index = (props) => {
                   </tr>
                   <tr>
                     <th scope="row"><i class="fas fa-car"></i></th>
-                    <td>Vijayent Korpal</td>
+                    <td>Ford</td>
                     <td>12/07/2023</td>
                     <td>Hemendra Rai</td>
                     <td><a href="#">link</a></td>
