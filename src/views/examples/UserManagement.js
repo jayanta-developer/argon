@@ -159,28 +159,10 @@ const UserManagement = () => {
                       15/12/2021
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">50</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="50"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                    50
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">60</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="60"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      60
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -226,28 +208,10 @@ const UserManagement = () => {
                       10/01/2019
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">90</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="90"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      90
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">100%</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="100"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      100
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -293,28 +257,10 @@ const UserManagement = () => {
                       11/10/2022
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">80</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="80"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      80
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">72</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="72"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      72
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -360,28 +306,10 @@ const UserManagement = () => {
                       15/05/2021
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">95</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="95"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      95
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">40</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="40"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      40
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -427,28 +355,10 @@ const UserManagement = () => {
                       05/05/2018
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">50</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="50"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      50
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">80</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="80"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      80
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -494,28 +404,10 @@ const UserManagement = () => {
                       15/01/2021
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">95</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="95"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      95
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">60</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="60"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      60
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -561,28 +453,10 @@ const UserManagement = () => {
                       15/12/2021
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">45</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="45"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      45
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">60</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="75"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      60
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -628,28 +502,10 @@ const UserManagement = () => {
                       15/12/2021
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">95</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="95"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      95
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">60</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="60"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      60
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -695,28 +551,10 @@ const UserManagement = () => {
                       05/06/2022
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">65</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="65"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      65
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">50</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="50"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      50
                     </td>
                     <td>
                       <label className="custom-toggle">
@@ -762,28 +600,10 @@ const UserManagement = () => {
                       15/12/2021
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">75</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="75"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      75
                     </td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">60</span>
-                        <div>
-                          <Progress
-                            max="100"
-                            value="60"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      60
                     </td>
                     <td>
                       <label className="custom-toggle">

@@ -57,7 +57,8 @@ const CarManagement = () => {
                     <th scope="col">image</th>
                     <th scope="col">car name</th>
                     <th scope="col">model</th>
-                    <th scope="col">make year</th>
+                    <th scope="col">make</th>
+                    <th scope="col">year</th>
                     <th scope="col">user name</th>
                     <th scope="col">number of notecard</th>
                     <th scope="col" />
@@ -82,18 +83,9 @@ const CarManagement = () => {
                     <td>BMW</td>
                     <td>Series (E87)</td>
                     <td>2013</td>
+                    <td>2013</td>
                     <td>Hemendra Rai</td>
-                    <td><div className="d-flex align-items-center">
-                      <span className="mr-2">260</span>
-                      <div>
-                        <Progress
-                          max="1000"
-                          value="260"
-                          barClassName="bg-danger"
-                        />
-                      </div>
-                    </div>
-                    </td>
+                    <td>260</td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -140,18 +132,10 @@ const CarManagement = () => {
                     <td>Maruti Suzuki</td>
                     <td>Ertiga</td>
                     <td>2020</td>
+                    <td>2020</td>
                     <td>Mukund Goyal</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">542</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="542"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      542
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -199,18 +183,10 @@ const CarManagement = () => {
                     <td>Honda City</td>
                     <td>506 L</td>
                     <td>2017</td>
+                    <td>2017</td>
                     <td>Mukund Goyal</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">148</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="148"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      148
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -258,18 +234,10 @@ const CarManagement = () => {
                     <td>Hyundai</td>
                     <td>Compact SUV</td>
                     <td>2020</td>
+                    <td>2020</td>
                     <td>Abhinav Mody</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">620</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="620"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      620
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -316,19 +284,11 @@ const CarManagement = () => {
                     </Media></th>
                     <td>Ford</td>
                     <td>EcoSport</td>
-                    <td>F321</td>
+                    <td>2021</td>
+                    <td>2021</td>
                     <td>Hemendra Rai</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">880</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="880"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      880
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -376,18 +336,10 @@ const CarManagement = () => {
                     <td>Tata Nexon</td>
                     <td>N123</td>
                     <td>2015</td>
+                    <td>2015</td>
                     <td>Zahir Pau</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">360</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="360"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      360
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -435,18 +387,10 @@ const CarManagement = () => {
                     <td>Renault</td>
                     <td>Kwid</td>
                     <td>2023</td>
+                    <td>2023</td>
                     <td>Lakshmi Mistry</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">728</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="728"
-                            barClassName="bg-info"
-                          />
-                        </div>
-                      </div>
+                      728
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -494,18 +438,10 @@ const CarManagement = () => {
                     <td>Mahindra & Mahindra</td>
                     <td>XUV500</td>
                     <td>2021</td>
+                    <td>2021</td>
                     <td>Siddharth Dodiya</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">428</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="428"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      428
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -553,18 +489,10 @@ const CarManagement = () => {
                     <td>Maruti Swift</td>
                     <td>Desire</td>
                     <td>2018</td>
+                    <td>2018</td>
                     <td>Mohan Borah</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">920</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="920"
-                            barClassName="bg-success"
-                          />
-                        </div>
-                      </div>
+                      920
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -612,18 +540,10 @@ const CarManagement = () => {
                     <td>Renault Kwid</td>
                     <td>Kwid</td>
                     <td>2021</td>
+                    <td>2021</td>
                     <td>Kamlesh Naik</td>
                     <td>
-                      <div className="d-flex align-items-center">
-                        <span className="mr-2">436</span>
-                        <div>
-                          <Progress
-                            max="1000"
-                            value="436"
-                            barClassName="bg-danger"
-                          />
-                        </div>
-                      </div>
+                      436
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>

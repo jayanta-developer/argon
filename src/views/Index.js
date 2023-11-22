@@ -66,7 +66,7 @@ const Index = (props) => {
       <Header />
       {/* Page content */}
       <Container className="mt--7" fluid>
-        <Row>
+        {/*<Row>
           <Col className="mb-5 mb-xl-0" xl="12">
             <Card className="shadow">
               <CardHeader className="bg-transparent">
@@ -109,7 +109,6 @@ const Index = (props) => {
                 </Row>
               </CardHeader>
               <CardBody>
-                {/* Chart */}
                 <div className="chart">
                   <Line
                     data={chartExample1[chartExample1Data]}
@@ -120,8 +119,8 @@ const Index = (props) => {
               </CardBody>
             </Card>
           </Col>          
-        </Row>
-        <Row className="mt-5">
+        </Row> */}
+        <Row>
           <Col className="mb-5 mb-xl-0" xl="5">
             <Card className="shadow">
               <CardHeader className="border-0">
