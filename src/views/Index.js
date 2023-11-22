@@ -31,7 +31,7 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Progress,
+  Media,
   Table,
   Container,
   Row,
@@ -187,6 +187,29 @@ const Index = (props) => {
                       <i className="fas fa-arrow-up text-success mr-3" /> 50,87%
                     </td>                    
                   </tr>
+                  <tr>
+                    <th scope="row">Ambika Khan</th>
+                    <td>3,985</td>
+                    <td>
+                      <i className="fas fa-arrow-down text-warning mr-3" />{" "}
+                      46,53%
+                    </td>                    
+                  </tr>
+                  <tr>
+                    <th scope="row">Bimla Bhavsar</th>
+                    <td>3,513</td>  
+                    <td>
+                      <i className="fas fa-arrow-up text-success mr-3" /> 50,87%
+                    </td>                  
+                  </tr>
+                  <tr>
+                    <th scope="row">Himesh Sachdev</th>
+                    <td>2,050</td> 
+                    <td>
+                      <i className="fas fa-arrow-down text-danger mr-3" />{" "}
+                      46,53%
+                    </td>                   
+                  </tr>
                 </tbody>
               </Table>
             </Card>
@@ -222,35 +245,90 @@ const Index = (props) => {
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Maruti Suzuki</td>
                     <td>12/07/2023</td>
                     <td>Hemendra Rai</td>
                     <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Honda City</td>
                     <td>12/07/2023</td>
                     <td>Mukund Goyal</td>
                     <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Hyundai</td>
                     <td>12/07/2023</td>
                     <td>Abhinav Mody</td>
                     <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Ford</td>
                     <td>12/07/2023</td>
                     <td>Hemendra Rai</td>
                     <td><a href="#">link</a></td>
                   </tr>
                   <tr>
-                    <th scope="row"><i class="fas fa-car"></i></th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Tata Nexon</td>
                     <td>12/07/2023</td>
                     <td>Zahir Pau</td>

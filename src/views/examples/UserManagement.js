@@ -26,7 +26,7 @@ import {
   DropdownItem,
   UncontrolledDropdown,
   DropdownToggle,
-  Media,
+  Modal,
   Pagination,
   PaginationItem,
   PaginationLink,
@@ -34,12 +34,20 @@ import {
   Table,
   Container,
   Row,
-  UncontrolledTooltip,
+  FormGroup,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
 } from "reactstrap";
 // core components
 import UserHeader from "components/Headers/UserHeader.js";
+import { useState } from "react";
 
 const UserManagement = () => {
+  const [open, setOpen] = useState(false)
+
   return (
     <>
       <UserHeader />
@@ -57,15 +65,78 @@ const UserManagement = () => {
                   <div className="col text-right">
                     <Button
                       color="primary"
-                      href="/add-new-user"
-                      onClick={(e) => e.preventDefault()}
+                      onClick={() => setOpen(!open)}
                       size="sm"
                     >
-                      Add new user
+                      Add New User
                     </Button>
                   </div>
                 </Row>
               </CardHeader>
+
+              <Modal
+                className="modal-dialog-centered"
+                isOpen={open}
+              >
+                <div className="modal-header bg-secondary">
+                  <h3 className="modal-title" id="exampleModalLabel">
+                    Add New User
+                  </h3>
+                  <button
+                    aria-label="Close"
+                    className="close"
+                    data-dismiss="modal"
+                    type="button"
+                    onClick={() => setOpen(false)}
+                  >
+                    <span aria-hidden={true}>×</span>
+                  </button>
+                </div>
+                <div className="modal-body bg-secondary">
+                  <Form role="form">
+                    <FormGroup className="mb-3">
+                      <InputGroup className="input-group-alternative">
+                        <InputGroupAddon addonType="prepend">
+                          <InputGroupText>
+                            <i className="ni ni-single-02" />
+                          </InputGroupText>
+                        </InputGroupAddon>
+                        <Input placeholder="Full Name" type="text" />
+                      </InputGroup>
+                    </FormGroup>
+                    <FormGroup className="mb-3">
+                      <InputGroup className="input-group-alternative">
+                        <InputGroupAddon addonType="prepend">
+                          <InputGroupText>
+                            <i className="ni ni-email-83" />
+                          </InputGroupText>
+                        </InputGroupAddon>
+                        <Input placeholder="Email" type="email" />
+                      </InputGroup>
+                    </FormGroup>
+                    <FormGroup>
+                      <InputGroup className="input-group-alternative">
+                        <InputGroupAddon addonType="prepend">
+                          <InputGroupText>
+                            <i className="ni ni-lock-circle-open" />
+                          </InputGroupText>
+                        </InputGroupAddon>
+                        <Input placeholder="Password" type="password" />
+                      </InputGroup>
+                    </FormGroup>
+                    <div className="text-center">
+                      <Button
+                        className="my-4"
+                        color="primary"
+                        type="button"
+                      >
+                        Submit
+                      </Button>
+                    </div>
+                  </Form>
+                </div>
+              </Modal>
+
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>

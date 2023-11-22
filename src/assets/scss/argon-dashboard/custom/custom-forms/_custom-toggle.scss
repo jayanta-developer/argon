@@ -16,7 +16,7 @@
                 border: $custom-control-indicator-border-width solid $custom-control-indicator-checked-border-color;
 
                 &:before {
-                    background: $custom-toggle-checked-bg;
+                    background: #2dce89 !important;
                     transform: translateX(1.625rem);
                 }
             }

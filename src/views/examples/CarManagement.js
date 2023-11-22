@@ -54,7 +54,7 @@ const CarManagement = () => {
               <Table className="align-items-center table-flush" responsive>
                 <thead className="thead-light">
                   <tr>
-                    <th scope="col">image</th>                    
+                    <th scope="col">image</th>
                     <th scope="col">car name</th>
                     <th scope="col">model</th>
                     <th scope="col">make year</th>
@@ -65,12 +65,35 @@ const CarManagement = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <a
+                          className="avatar rounded-circle"
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <img
+                            alt="..."
+                            src={require("../../assets/img/theme/bootstrap.jpg")}
+                          />
+                        </a>
+                      </Media>
+                    </th>
                     <td>BMW</td>
                     <td>Series (E87)</td>
-                    <td>2013</td>                    
+                    <td>2013</td>
                     <td>Hemendra Rai</td>
-                    <td>251</td>
+                    <td><div className="d-flex align-items-center">
+                      <span className="mr-2">260</span>
+                      <div>
+                        <Progress
+                          max="1000"
+                          value="260"
+                          barClassName="bg-danger"
+                        />
+                      </div>
+                    </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -96,23 +119,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Maruti Suzuki</td>
                     <td>Ertiga</td>
-                    <td>2020</td>                    
+                    <td>2020</td>
                     <td>Mukund Goyal</td>
-                    <td>542</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">542</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="542"
+                            barClassName="bg-info"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -138,23 +178,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Honda City</td>
                     <td>506 L</td>
-                    <td>2017</td>                    
+                    <td>2017</td>
                     <td>Mukund Goyal</td>
-                    <td>148</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">148</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="148"
+                            barClassName="bg-danger"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -180,23 +237,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Hyundai</td>
                     <td>Compact SUV</td>
-                    <td>2020</td>                    
+                    <td>2020</td>
                     <td>Abhinav Mody</td>
-                    <td>120</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">620</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="620"
+                            barClassName="bg-info"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -222,23 +296,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Ford</td>
                     <td>EcoSport</td>
-                    <td>F321</td>                    
+                    <td>F321</td>
                     <td>Hemendra Rai</td>
-                    <td>520</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">880</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="880"
+                            barClassName="bg-success"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -264,23 +355,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Tata Nexon</td>
                     <td>N123</td>
-                    <td>2015</td>                    
+                    <td>2015</td>
                     <td>Zahir Pau</td>
-                    <td>327</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">360</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="360"
+                            barClassName="bg-danger"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -306,23 +414,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Renault</td>
                     <td>Kwid</td>
-                    <td>2023</td>                    
+                    <td>2023</td>
                     <td>Lakshmi Mistry</td>
-                    <td>328</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">728</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="728"
+                            barClassName="bg-info"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -348,23 +473,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Mahindra & Mahindra</td>
                     <td>XUV500</td>
-                    <td>2021</td>                    
+                    <td>2021</td>
                     <td>Siddharth Dodiya</td>
-                    <td>418</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">428</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="428"
+                            barClassName="bg-danger"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -390,23 +532,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Maruti Swift</td>
                     <td>Desire</td>
-                    <td>2018</td>                    
+                    <td>2018</td>
                     <td>Mohan Borah</td>
-                    <td>228</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">920</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="920"
+                            barClassName="bg-success"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -432,23 +591,40 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr> 
+                  </tr>
                   <tr>
-                    <th scope="row">image</th>
+                    <th scope="row"><Media className="align-items-center">
+                      <a
+                        className="avatar rounded-circle"
+                        href="#pablo"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <img
+                          alt="..."
+                          src={require("../../assets/img/theme/bootstrap.jpg")}
+                        />
+                      </a>
+                    </Media></th>
                     <td>Renault Kwid</td>
                     <td>Kwid</td>
-                    <td>2021</td>                    
+                    <td>2021</td>
                     <td>Kamlesh Naik</td>
-                    <td>436</td>
+                    <td>
+                      <div className="d-flex align-items-center">
+                        <span className="mr-2">436</span>
+                        <div>
+                          <Progress
+                            max="1000"
+                            value="436"
+                            barClassName="bg-danger"
+                          />
+                        </div>
+                      </div>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -474,16 +650,11 @@ const CarManagement = () => {
                           >
                             Delete
                           </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Something else here
-                          </DropdownItem>
+
                         </DropdownMenu>
                       </UncontrolledDropdown>
                     </td>
-                  </tr>                  
+                  </tr>
                 </tbody>
               </Table>
               <CardFooter className="py-4">
