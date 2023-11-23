@@ -15,7 +15,7 @@
                     border-color: $custom-control-indicator-checked-border-color;
                 }
                 &::after {
-                    background-image: $custom-checkbox-indicator-icon-checked;
+                    background-image: url(../../../../img/icons/checkmark.png);
                 }
             }
         }
