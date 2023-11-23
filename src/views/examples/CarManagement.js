@@ -61,6 +61,7 @@ const CarManagement = () => {
                     <th scope="col">year</th>
                     <th scope="col">user name</th>
                     <th scope="col">number of notecard</th>
+                    <th scope="col">status</th>
                     <th scope="col" />
                   </tr>
                 </thead>
@@ -86,6 +87,12 @@ const CarManagement = () => {
                     <td>2013</td>
                     <td>Hemendra Rai</td>
                     <td>260</td>
+                    <td>
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
+                    </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
                         <DropdownToggle
@@ -134,8 +141,12 @@ const CarManagement = () => {
                     <td>2020</td>
                     <td>2020</td>
                     <td>Mukund Goyal</td>
+                    <td>542</td>
                     <td>
-                      542
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -185,8 +196,12 @@ const CarManagement = () => {
                     <td>2017</td>
                     <td>2017</td>
                     <td>Mukund Goyal</td>
+                    <td>148</td>
                     <td>
-                      148
+                      <label className="custom-toggle">
+                        <input type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -236,8 +251,12 @@ const CarManagement = () => {
                     <td>2020</td>
                     <td>2020</td>
                     <td>Abhinav Mody</td>
+                    <td>620</td>
                     <td>
-                      620
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -287,8 +306,12 @@ const CarManagement = () => {
                     <td>2021</td>
                     <td>2021</td>
                     <td>Hemendra Rai</td>
+                    <td>880</td>
                     <td>
-                      880
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -338,8 +361,12 @@ const CarManagement = () => {
                     <td>2015</td>
                     <td>2015</td>
                     <td>Zahir Pau</td>
+                    <td>360</td>
                     <td>
-                      360
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -389,8 +416,12 @@ const CarManagement = () => {
                     <td>2023</td>
                     <td>2023</td>
                     <td>Lakshmi Mistry</td>
+                    <td>728</td>
                     <td>
-                      728
+                      <label className="custom-toggle">
+                        <input type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -440,8 +471,12 @@ const CarManagement = () => {
                     <td>2021</td>
                     <td>2021</td>
                     <td>Siddharth Dodiya</td>
+                    <td>428</td>
                     <td>
-                      428
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -491,8 +526,12 @@ const CarManagement = () => {
                     <td>2018</td>
                     <td>2018</td>
                     <td>Mohan Borah</td>
+                    <td>920</td>
                     <td>
-                      920
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
@@ -542,8 +581,12 @@ const CarManagement = () => {
                     <td>2021</td>
                     <td>2021</td>
                     <td>Kamlesh Naik</td>
+                    <td>436</td>
                     <td>
-                      436
+                      <label className="custom-toggle">
+                        <input defaultChecked type="checkbox" />
+                        <span className="custom-toggle-slider rounded-circle" />
+                      </label>
                     </td>
                     <td className="text-right">
                       <UncontrolledDropdown>
