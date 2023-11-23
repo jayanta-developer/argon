@@ -77,20 +77,16 @@ const Login = (props) => {
               <Row className="justify-content-center">
                 <Col lg="5" md="6">
                   <h1 className="text-white">Welcome!</h1>
-                  <p className="text-lead text-light">
-                    Use these awesome forms to login or create new account in
-                    your project for free.
-                  </p>
                 </Col>
               </Row>
             </div>
-          </Container>          
+          </Container>
         </div>
         {/* Page content */}
         <Container className="mt--8 pb-5">
           <Row className="justify-content-center">
             <Col lg="5" md="7">
-              <Card className="bg-secondary shadow border-0">                
+              <Card className="bg-secondary shadow border-0">
                 <CardBody className="px-lg-5 py-lg-5">
                   <Form role="form">
                     <FormGroup className="mb-3">
@@ -141,7 +137,7 @@ const Login = (props) => {
                     </div>
                   </Form>
                 </CardBody>
-              </Card>              
+              </Card>
             </Col>
           </Row>
         </Container>
@@ -151,5 +147,3 @@ const Login = (props) => {
 };
 
 export default Login;
-
-
